@@ -5,7 +5,6 @@ export const PanelStyled = styled.div`
     flex-direction: column;
     align-items: center;
     width: 100%;
-    height: 70vh;
 
     p {
         margin-top: .5rem;
@@ -16,11 +15,11 @@ export const PanelStyled = styled.div`
     hr {
         width: 100%;
         color: #222;
-        border-color: #222;
+        border: solid 2px #222;
     }
 
     h2 {
-        margin: 1rem auto;
+        margin: 1rem;
         font-size: 1.4rem;
         text-transform: uppercase;
         background-color: #222;
@@ -43,7 +42,7 @@ export const PanelStyled = styled.div`
     }
     
     th {
-        width: 12rem;
+        width: 16rem;
         padding: .2rem;
         background-color: blueviolet;
     }

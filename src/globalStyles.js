@@ -7,6 +7,7 @@ const GlobalStyle = createGlobalStyle`
         color: blanchedalmond;
         font-family: monospace;
         font-size: 1rem;
+        overflow-x: hidden;
     }
 
     h1, p {
