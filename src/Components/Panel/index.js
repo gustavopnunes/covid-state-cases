@@ -22,7 +22,6 @@ export const Panel = () => {
     return (
     <PanelStyled>
         <p>SELECIONE O ESTADO</p>
-        <hr />
         <select id="estado" name="estado" onChange = {handleSelect} defaultChecked = "São Paulo">
                 <option value="AC">Acre</option>
                 <option value="AL">Alagoas</option>
@@ -53,7 +52,7 @@ export const Panel = () => {
                 <option value="TO">Tocantins</option>
                 <option value="EX">Estrangeiro</option>
         </select>
-
+        <hr />
         <h2>{data.state}</h2>
         <table>
             <tbody>

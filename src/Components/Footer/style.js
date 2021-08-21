@@ -6,5 +6,9 @@ export const FooterStyled = styled.footer`
     background-color: #222;
     width: 100%;
     text-align: center;
-    font-size: .8rem;
+    font-size: .6rem;
+
+    a {
+        color: inherit;
+    }
 `

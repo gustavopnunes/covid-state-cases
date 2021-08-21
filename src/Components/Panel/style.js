@@ -6,7 +6,6 @@ export const PanelStyled = styled.div`
     align-items: center;
     width: 100%;
     height: 70vh;
-    justify-content: space-evenly;
 
     p {
         margin-top: .5rem;
@@ -21,6 +20,7 @@ export const PanelStyled = styled.div`
     }
 
     h2 {
+        margin: 1rem auto;
         font-size: 1.4rem;
         text-transform: uppercase;
         background-color: #222;
@@ -34,7 +34,7 @@ export const PanelStyled = styled.div`
     }
 
     table {
-        font-size: 1rem;
+        font-size: .9rem;
         border-collapse: collapse;
         border: 1px solid gray;
         text-align: center;
@@ -43,6 +43,7 @@ export const PanelStyled = styled.div`
     }
     
     th {
+        width: 12rem;
         padding: .2rem;
         background-color: blueviolet;
     }

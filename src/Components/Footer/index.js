@@ -3,7 +3,9 @@ import { FooterStyled } from "./style"
 export const Footer = () => {
     return (
         <FooterStyled>
-            made by Greg
+            <p>fonte: COVID-19 Brazil API - </p>
+                <p><a rel = "noreferrer" target = "_blank" href = "https://covid19-brazil-api-docs.vercel.app">https://covid19-brazil-api-docs.vercel.app</a></p>
+            <br /> made by Greg
         </FooterStyled>
     )
 }
