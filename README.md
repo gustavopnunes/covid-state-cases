@@ -9,4 +9,4 @@ Painel simples para praticar requisição de dados em api's públicas, component
 - Vercel
 
 ### Link: 
-https://covid-state-cases-179lv4o7u-gustavopnunes.vercel.app/
+https://covid-state-cases-gustavopnunes.vercel.app/
